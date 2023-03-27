@@ -2,8 +2,7 @@ fun main() {
     var cardType: String = "VKpay"
     var transferAmount: Int = 0
     var previousMonthTransferAmount: Int = 0
-    val comission =
-        comissionAmount("VKpay", 3_000, 6_000)//Введите тип карты, сумму перевода и сумму переводов за текущий месяц
+    val comission = comissionAmount("VKpay", 3_000, 6_000)//Введите тип карты, сумму перевода и сумму переводов за текущий месяц
     println("Сумма комиссии за перевод: " + (comission) + " руб.")
 }
 
